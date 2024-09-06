@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+    height: 72px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.headiv{
+    display: flex;
+    width: 89%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 0;
+     
+}
+img{
+    width: 150px;
+    margin-right: 0;
+
+}
+.menu{
+    display: flex;
+    
+}
+    ul{
+        display: flex;
+        gap: 30px;
+        
+    }
+    li{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+    li a{
+        display: flex;
+        font-size: 18px;
+        color: grey;
+        
+    }
+    li a:hover{
+        color: white;
+    }
+    h3{
+        font-size: 2rem;
+    }
+    .container{
+        display: flex;
+        width: 85%;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .left{
+        width: 45%;
+    }
+   .click{
+   font-size: 20px;
+  width: 20rem;
+   height: 4rem;
+   margin-top: 3rem;
+   border: solid 3px;
+   border-color: #F26522;
+   
+  
+   }
+   .click:hover{
+    background-color: #F26522;
+    background-position: 0 0;
+   }
+    .par1{
+        font-size: 5rem;
+        color: white;
+
+    }
+    .video-icon{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0QAfT7iEslWM6GgXmdO6DIujUCDyqEfmCkA&s); 
+    height: 8.4rem;
+    width: 8.4rem;
+    border-radius: 50%;
+   
+    
+    }
+    .video-text{
+        font-size: 25px;
+        color: grey;
+    }
+  body{
+       
+        background-image: url(https://preview.colorlib.com/theme/stellar/images/hero-bg.jpg);
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat; 
+        height: 450px;    
+        
+  }
+  .target{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+  .top{
+    flex-direction: column;
+    margin: 0 auto;
+    width: 75%;
+  }
+  .toph3{
+    color: #F26522;
+    padding-left: 3.5rem;
+    margin-bottom: 3.6rem;
+
+  }
+  h2{
+    color: white;
+    margin-bottom: 4rem;
+    font-size: 3rem;
+  }
+    .ptop{
+        color: grey;
+        font-size: 1.8rem;
+    }
+      .both3{
+        color: #F26522;
+        font-size: 3rem;
+    margin-bottom: 20px;
+      }      
+        span{
+            color: white;
+            font-size: 2rem;
+            
+           
+        }    
+ .pbot{
+    color: grey;
+    font-size: 1.5rem;
+    margin-top: 10px;
+ }
+.contact{
+    margin: 0 auto;
+    width: 75%;
+} 
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+    
+}
+.box{
+    width: 300px;
+}
+.sec2{
+    background-image: url(https://preview.colorlib.com/theme/stellar/images/services-bg.jpg.webp);
+    background-size: cover;
+        background-position: center; 
+        padding-top: 5rem;
+    background-repeat: no-repeat;
+    
+}
+.ful{
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+}
+.fspan{
+    color: grey;
+    font-size: 20px;
+   padding-left: 7rem;
+   
+}
+footer{
+    background-color: black;
+}
+.linkk{
+    color: white;
+}
